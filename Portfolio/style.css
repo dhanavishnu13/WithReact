@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(friendship.jpg);
+  background-repeat: no-repeat;
+  width:100%; 
+  background-attachment: fixed;  
+  background-size: cover;
+ backface-visibility: 0.5; 
+}
+.scroll{
+  width:100%;
+  height: 100%;
+  overflow: scroll;
+}
+.hero {
+  height: 100%;
+  width: 100%;
+  
+  background-size: cover;
+  background-position: center;
+}
+.logo{
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  
+}
+span {
+  color: rgb(173, 96, 33);
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8px 40px;
+  position: fixed;
+}
+ul li {
+  display: inline-block;
+  padding: 10px 30px;
+  
+}
+ul li a{
+  color: white;
+  text-decoration: none;
+
+}
+ul li a:hover{
+  color:aqua;
+}
+.btn{
+  background-color:brown;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: transform 10s;
+}
+.btn:hover{
+  transform: scale(1.5);
+}
+ .content{
+  position: absolute;
+  top: 40%;
+  left:8%;
+}
+/* .data
+{
+  position: absolute;
+  top: 30%;
+  left:8%;
+} */
+h1{
+  color: white;
+  margin: 20px 0 20px;
+  font-size: 50px;
+}
+h4{
+  color: white;
+  margin: 20px 0 20px;
+  font-size: 25px;
+}
+h3{
+  color: rgb(72, 121, 133);
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+p{
+  color: rgb(173, 96, 33);
+  margin: 10px;
+  font-size: 25px;
+
+}
+.newsletter form{
+  width: 400px;
+  max-width: 100%;
+  align-items: center;
+  position: relative;
+  margin: 5%;
+}
+.newsletter form input:first-child{
+  width: 100%;
+  display: inline-block;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid red;
+  border-radius: 30px;
+}
+.newsletter form input:last-child{
+  position: absolute;
+  display: inline-block;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  background-color: red;
+  color: white;
+  top: 6px;
+  right: 6px;
+}
+.search{
+  width: 400px;
+  max-width: 100%;
+  align-items: l;
+  position: relative;
+}
+.ai {
+  border-radius: 50%;
+  width:5%;
+  margin-right: 10%;
+}
+.profile{
+  border-radius: 50%;
+  width:15%;
+  margin-right: 15%;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  font-size: 40px;
+  margin-right: 15%;
+}
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;/*distance between text and border*/
+}
+#rcorners {
+  border-radius: 25px;
+  background: rgb(173, 96, 33);
+  padding: 20px; 
+  width: 70%;
+  height: 40%;  
+}
+#rcorners:hover{
+  background-color:white;
+}
